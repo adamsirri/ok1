@@ -15,4 +15,4 @@ async def on_message(message):
 		embed=discord.Embed(title="Confession .",color=0x00ff00, description="A new confession  .")
 		embed.add_field(name="Confession :", value=Nmessage, inline=False)
 		await channel.send(embed=embed)
-client.run("Njg3Mzk1NTU4NDc3NzkxMjQ1.Xm6W3Q.iotK4veVhtIlm48DJDwzdbbvO90",bot=True)
+client.run("Njg3Mzk1NTU4NDc3NzkxMjQ1.Xm6Ykg.y7nfocWMyt3hnCPEDSS6CAqH5yY",bot=True)
