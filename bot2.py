@@ -1,3 +1,4 @@
+import os
 import discord
 from discord.ext import commands
 client = commands.Bot(command_prefix ="/")
@@ -15,4 +16,5 @@ async def on_message(message):
 		embed=discord.Embed(title="Confession .",color=0x00ff00, description="A new confession  .")
 		embed.add_field(name="Confession :", value=Nmessage, inline=False)
 		await channel.send(embed=embed)
+
 client.run(os.getenv('Token'))
