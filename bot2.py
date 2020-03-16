@@ -26,5 +26,6 @@ async def helps(ctx,*,prob):
 	author = ctx.message.author
 	user = client.get_user(475818993568055298)
 	await user.send(f"{author} have a problem :   {prob}")
+        await ctx.send("your message is sent ")
 
 client.run(os.getenv('Token'))
