@@ -70,4 +70,4 @@ async def Ckick(ctx,member:discord.Member,*,reason=None):
 @has_permissions(manage_roles=True, ban_members=True)
 async def DeleteThatShit(ctx,*,ammount=5):
 	await ctx.channel.purge(limit=ammount)
-client.run("Njg3Mzk1NTU4NDc3NzkxMjQ1.Xm7UzA.FpotT5mU68HA6jFZ2sTZyYOqLPs")
+client.run(os.getenv('Token')
